@@ -1,0 +1,24 @@
+{
+  "name": "ssh-express",
+  "version": "1.0.0",
+  "description": "ssh express",
+  "main": "./bin/fssh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fssh": "./bin/fssh-exec.js"
+  },
+  "keywords": [
+    "ssh",
+    "express"
+  ],
+  "author": "fanxingzeng",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "json-format": "^1.0.1",
+    "readline": "^1.3.0",
+    "request": "^2.88.0"
+  }
+}
